@@ -4,6 +4,7 @@ import './App.css'
 import Logo from './Components/Logo'
 import Menu from './Components/Menu'
 import Mapa from './Components/Mapa'
+import Video from './Components/Video'
 
 const links = [
   {
@@ -36,7 +37,8 @@ class App extends React.Component {
           { /* DESAFIO II: */ }
           <Mapa lat="-34.6078602" long="-58.383111" zoom="15" />
 
-
+          { /* DESAFIO II: */ }
+          <Video id="yi1oDRDQvlo" play="yes" />
 
         </header>
       </div>
