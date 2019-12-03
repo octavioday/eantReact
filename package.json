@@ -2,7 +2,7 @@
   "name": "second-app",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://octavioday.github.io/eantReact",// Para conectarme directamente al github y usar ese host
+  "homepage": "https://octavioday.github.io/eantReact",
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",

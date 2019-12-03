@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/eantReact/static/css/main.259340c3.chunk.css",
+    "main.js": "/eantReact/static/js/main.fad22b62.chunk.js",
+    "main.js.map": "/eantReact/static/js/main.fad22b62.chunk.js.map",
+    "runtime-main.js": "/eantReact/static/js/runtime-main.ad51b7ed.js",
+    "runtime-main.js.map": "/eantReact/static/js/runtime-main.ad51b7ed.js.map",
+    "static/js/2.37171b1c.chunk.js": "/eantReact/static/js/2.37171b1c.chunk.js",
+    "static/js/2.37171b1c.chunk.js.map": "/eantReact/static/js/2.37171b1c.chunk.js.map",
+    "index.html": "/eantReact/index.html",
+    "precache-manifest.ec22adf534e50f9c6c70e61e6211636f.js": "/eantReact/precache-manifest.ec22adf534e50f9c6c70e61e6211636f.js",
+    "service-worker.js": "/eantReact/service-worker.js",
+    "static/css/main.259340c3.chunk.css.map": "/eantReact/static/css/main.259340c3.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad51b7ed.js",
+    "static/js/2.37171b1c.chunk.js",
+    "static/css/main.259340c3.chunk.css",
+    "static/js/main.fad22b62.chunk.js"
+  ]
+}

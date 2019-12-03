@@ -26,9 +26,25 @@ const links = [
 ]
 
 class App extends React.Component {
+
+  constructor(){
+    super()
+    this.state = {
+      isLoaded : false
+    }
+  }
+
+  componentDidMount(){
+    // fetch( OBTENCION ).then( CONVERSION ).then( UTILIZACION )
+    fetch("https://api.myjson.com/bins/1giaf3").then( rta => rta.json() ).then( data => {
+      this.setState( { productos : data , isLoaded: true } )
+    })
+
+  }
+
   render(){
     return (
-      <div className="App">
+      <div className="App"> 
         <header className="App-header">
           <Logo category="sports" />
           <p>Edit <code>src/App.js</code> and save to reload.</p>
@@ -41,8 +57,8 @@ class App extends React.Component {
           { /* DESAFIO II: */ }
           <Video id="yi1oDRDQvlo" play="no" />
 
-          <Producto />
-
+          { !this.state.isLoaded ? <p>Cargando...</p> : <Producto /> } 
+         
         </header>
       </div>
     )
